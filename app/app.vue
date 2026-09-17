@@ -22,7 +22,6 @@
       </div>
 
       <div class="hidden sm:flex items-center gap-3 px-4 py-1.5 rounded-full bg-[#141418]/80 border border-zinc-800/80 backdrop-blur-md text-xs shadow-sm">
-        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
         <span class="text-zinc-300 font-medium">Ready for Semester 5 Enrichment</span>
         <span class="text-zinc-600">•</span>
         <span class="text-zinc-400 font-mono text-[11px]">Nuxt 3 + Tailwind</span>
@@ -175,9 +174,9 @@
               <span class="font-medium">LinkedIn</span>
               <span class="text-zinc-500 text-[11px]">matthew-natanael ↗</span>
             </a>
-            <a href="https://instagram.com/matt_nael" target="_blank" class="bg-[#1a1a21]/90 hover:bg-zinc-800 border border-zinc-800/80 px-3.5 py-2 rounded-xl flex items-center justify-between text-xs text-zinc-300 transition-colors">
+            <a href="https://instagram.com/matt__nael" target="_blank" class="bg-[#1a1a21]/90 hover:bg-zinc-800 border border-zinc-800/80 px-3.5 py-2 rounded-xl flex items-center justify-between text-xs text-zinc-300 transition-colors">
               <span class="font-medium">Instagram</span>
-              <span class="text-zinc-500 text-[11px]">@matt_nael ↗</span>
+              <span class="text-zinc-500 text-[11px]">@matt__nael ↗</span>
             </a>
           </div>
         </div>
@@ -205,17 +204,13 @@
 
         <!-- Profile Card -->
         <div class="bg-gradient-to-b from-[#17171c] to-[#121215] border border-white/[0.08] shadow-xl shadow-black/40 rounded-3xl p-6 hover:border-purple-500/40 transition-colors">
-          <div class="flex items-start gap-4">
+          <div class="flex items-center gap-4">
             <img 
               src="/images/avatar.png" 
               alt="Matthew Natanael" 
               class="w-20 h-20 rounded-2xl object-cover border border-purple-500/30 shrink-0 bg-zinc-800 shadow-md shadow-black/50"
             />
             <div class="flex-1">
-              <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-2">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                <span>Open for Internship</span>
-              </div>
               <h1 class="text-xl font-bold text-white">Matthew Natanael</h1>
               <p class="text-xs text-zinc-400 mt-0.5">Computer Science Undergraduate</p>
               <p class="text-xs text-zinc-500">BINUS University</p>
@@ -225,7 +220,7 @@
             <a 
               href="/resume.pdf" 
               download 
-              class="w-full inline-flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-semibold bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white shadow-lg shadow-purple-600/25 transition-all"
+              class="w-full inline-flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-semibold bg-white text-zinc-950 hover:bg-zinc-200 shadow-sm transition-all duration-200"
             >
               <span>Download CV</span>
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -388,19 +383,13 @@
         </div>
 
         <!-- Contact Me -->
-        <div class="bg-gradient-to-b from-[#17171c] to-[#121215] border border-white/[0.08] shadow-xl shadow-black/40 rounded-3xl p-6 hover:border-emerald-500/30 transition-colors flex-1 flex flex-col justify-between">
+        <div class="bg-gradient-to-b from-[#17171c] to-[#121215] border border-white/[0.08] shadow-xl shadow-black/40 rounded-3xl p-6 hover:border-purple-500/40 transition-colors flex-1 flex flex-col justify-between">
           <div>
-            <div class="flex items-center justify-between mb-3">
-              <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-zinc-400">
-                <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                </svg>
-                <span>Contact Me</span>
-              </div>
-              <span class="inline-flex items-center gap-1 text-[10px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 rounded-full">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                Fast Response
-              </span>
+            <div class="flex items-center gap-2 mb-3 text-xs font-semibold uppercase tracking-wider text-zinc-400">
+              <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              </svg>
+              <span>Contact Me</span>
             </div>
 
             <h3 class="text-base font-bold text-white">Let's Connect for Enrichment</h3>
@@ -409,21 +398,19 @@
             </p>
           </div>
 
-          <div class="flex flex-col gap-2.5 mt-5">
-            <!-- Tombol WhatsApp -->
-            <a 
-              href="https://wa.me/6282215174801?text=Halo%20Matthew,%20saya%20tertarik%20dengan%20portofolio%20Anda" 
-              target="_blank" 
-              class="w-full py-2.5 rounded-xl text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/20 transition-all text-center inline-flex items-center justify-center gap-2"
-            >
-              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                <path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.98-.276-.1-.477-.15-.678.15-.2.3-.778.98-.953 1.18-.175.201-.351.226-.652.076-.301-.15-1.272-.469-2.423-1.496-.896-.798-1.501-1.784-1.677-2.085-.175-.301-.019-.464.132-.613.136-.134.301-.35.451-.525.151-.176.201-.301.301-.502.1-.2.05-.376-.025-.526-.075-.15-.678-1.633-.929-2.238-.244-.59-.492-.51-.678-.52l-.578-.01c-.2 0-.526.075-.802.376-.276.301-1.053 1.029-1.053 2.509 0 1.48 1.078 2.909 1.229 3.11.15.2 2.122 3.24 5.141 4.544.718.31 1.279.496 1.716.635.722.23 1.379.197 1.898.12.578-.087 1.78-.727 2.031-1.43.251-.703.251-1.304.176-1.43-.076-.125-.276-.2-.577-.35zM12.004 2C6.48 2 2 6.48 2 12c0 1.956.564 3.784 1.542 5.332L2 22l4.82-1.263C8.307 21.564 10.098 22 12.004 22 17.524 22 22 17.52 22 12s-4.476-10-9.996-10z" />
-              </svg>
-              <span>Chat via WhatsApp</span>
-              <span>↗</span>
-            </a>
+          <div class="mt-5 space-y-2.5">
+            <!-- Nomor WhatsApp (Info Box) -->
+            <div class="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-[#1a1a21]/90 border border-zinc-800/80">
+              <div class="flex items-center gap-2 min-w-0">
+                <svg class="w-3.5 h-3.5 text-zinc-400 fill-current shrink-0" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c0-5.445 4.43-9.874 9.877-9.874 2.637 0 5.116 1.028 6.98 2.894a9.81 9.81 0 012.88 6.98c0 5.446-4.43-9.876-9.874 9.876m0-18.152c-4.563 0-8.276 3.713-8.276 8.276 0 1.458.38 2.881 1.102 4.137l.172.298-.653 2.388 2.443-.641.288.171a8.23 8.23 0 004.922 1.396h.004c4.562 0 8.276-3.713 8.276-8.276a8.21 8.21 0 00-2.42-5.856 8.211 8.211 0 00-5.856-2.422" />
+                </svg>
+                <span class="text-xs text-zinc-300 font-mono truncate select-all">+62 822-1517-4801</span>
+              </div>
+              <span class="text-[10px] text-zinc-500 uppercase tracking-wider font-semibold shrink-0 ml-2">WhatsApp</span>
+            </div>
 
-            <!-- Alamat Email -->
+            <!-- Alamat Email (Info Box) -->
             <div class="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-[#1a1a21]/90 border border-zinc-800/80">
               <div class="flex items-center gap-2 min-w-0">
                 <svg class="w-3.5 h-3.5 text-zinc-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
