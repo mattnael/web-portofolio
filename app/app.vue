@@ -192,7 +192,7 @@
             <div class="text-[11px] text-zinc-400 mt-1">Roles at BNCC</div>
           </div>
           <div class="bg-gradient-to-b from-[#17171c] to-[#121215] border border-white/[0.08] shadow-xl shadow-black/40 rounded-2xl p-4 text-center">
-            <div class="text-2xl font-extrabold text-white">2027</div>
+            <div class="text-2xl font-extrabold text-white">2028</div>
             <div class="text-[11px] text-zinc-400 mt-1">Expected Grad</div>
           </div>
         </div>
