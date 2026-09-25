@@ -16,7 +16,7 @@
     <!-- ================= 2. FLOATING HEADER (STATUS BAR) ================= -->
     <header class="max-w-7xl mx-auto w-full mb-8 relative z-20 flex items-center justify-between">
       <div class="flex items-center gap-2.5">
-        <img src="/images/avatar.png" alt="Avatar" class="w-7 h-7 rounded-full object-cover border border-[#aedcf6]/40" />
+        <img src="/images/avatar.png" alt="Avatar" class="w-7 h-7 rounded-full object-cover object-top border border-[#38bdf8]/40" />
         <span class="text-xs font-semibold text-zinc-200">Matthew Natanael</span>
       </div>
 
@@ -203,7 +203,7 @@
             <img
               src="/images/avatar.png"
               alt="Matthew Natanael"
-              class="w-20 h-20 rounded-2xl object-cover border border-[#aedcf6]/25 shrink-0 bg-zinc-800 shadow-md shadow-black/50"
+              class="w-20 h-20 rounded-2xl object-cover object-top border border-[#38bdf8]/25 shrink-0 bg-zinc-800 shadow-md shadow-black/50"
             />
             <div class="flex-1">
               <h1 class="text-xl font-bold text-white">Matthew Natanael</h1>
