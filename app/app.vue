@@ -207,7 +207,7 @@
             />
             <div class="flex-1">
               <h1 class="text-xl font-bold text-white">Matthew Natanael</h1>
-              <p class="text-xs text-zinc-400 mt-0.5">Computer Science Undergraduate</p>
+              <p class="text-xs text-zinc-400 mt-0.5">Computer Science student passionate about network infrastructure, serving as Manager of External Event Organizer at BNCC 37</p>
               <p class="text-xs text-zinc-500">BINUS University</p>
             </div>
           </div>
@@ -391,7 +391,7 @@
             <div class="flex items-start justify-between gap-2">
               <div>
                 <h3 class="text-xs font-bold text-white leading-snug">
-                  Adaptive Neuro-Fuzzy Based Forwarding Strategy for High-Speed Vehicular Named Data Networking
+                  Adaptive Neuro-Fuzzy Based Forwarding Strategy for High-Speed Vehicular Named Data Networking (Submitted / Under Review)
                 </h3>
                 <p class="text-[11px] text-zinc-400 mt-1.5 leading-relaxed">
                   Menstabilkan dan meminimalkan latency jaringan pada kendaraan bermobilitas tinggi dengan menerapkan strategi forwarding dan handover berbasis Neuro-Fuzzy di atas arsitektur Named Data Networking (NDN).
@@ -418,27 +418,33 @@
           </div>
 
           <div class="mt-4 space-y-2.5">
-            <!-- Nomor WhatsApp -->
-            <div class="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-[#1a1a21]/90 border border-zinc-800/80">
+            <a
+              href="https://wa.me/6282215174801"
+              target="_blank"
+              class="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-[#1a1a21]/90 hover:bg-zinc-800 border border-zinc-800/80 hover:border-zinc-700 transition-colors"
+            >
               <div class="flex items-center gap-2 min-w-0">
                 <svg class="w-3.5 h-3.5 text-zinc-400 fill-current shrink-0" viewBox="0 0 24 24">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c0-5.445 4.43-9.874 9.877-9.874 2.637 0 5.116 1.028 6.98 2.894a9.81 9.81 0 012.88 6.98c0 5.446-4.43-9.876-9.874 9.876m0-18.152c-4.563 0-8.276 3.713-8.276 8.276 0 1.458.38 2.881 1.102 4.137l.172.298-.653 2.388 2.443-.641.288.171a8.23 8.23 0 004.922 1.396h.004c4.562 0 8.276-3.713 8.276-8.276a8.21 8.21 0 00-2.42-5.856 8.211 8.211 0 00-5.856-2.422" />
                 </svg>
-                <span class="text-xs text-zinc-300 font-mono truncate select-all">+62 822-1517-4801</span>
+                <span class="text-xs text-zinc-300 font-mono truncate">+62 822-1517-4801</span>
               </div>
               <span class="text-[10px] text-zinc-500 uppercase tracking-wider font-semibold shrink-0 ml-2">WhatsApp</span>
-            </div>
+            </a>
 
             <!-- Email -->
-            <div class="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-[#1a1a21]/90 border border-zinc-800/80">
+            <a
+              href="mailto:mattnael07@gmail.com"
+              class="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-[#1a1a21]/90 hover:bg-zinc-800 border border-zinc-800/80 hover:border-zinc-700 transition-colors"
+            >
               <div class="flex items-center gap-2 min-w-0">
                 <svg class="w-3.5 h-3.5 text-zinc-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span class="text-xs text-zinc-300 font-mono truncate select-all">mattnael07@gmail.com</span>
+                <span class="text-xs text-zinc-300 font-mono truncate">mattnael07@gmail.com</span>
               </div>
               <span class="text-[10px] text-zinc-500 uppercase tracking-wider font-semibold shrink-0 ml-2">Email</span>
-            </div>
+            </a>
           </div>
         </div>
       </div>
